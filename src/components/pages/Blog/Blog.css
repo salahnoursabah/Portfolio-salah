@@ -1,0 +1,156 @@
+.div1 {}
+
+.text7 {
+    border: solid 3px brown;
+    border-radius: 5%;
+    height: 20%;
+}
+
+.ECRAN {
+    width: 120%;
+    animation-duration: 0.5s;
+}
+
+.HTML {
+    border: solid 5px #D84924;
+    position: relative;
+    bottom: 59%;
+    left: 9%;
+    animation-duration: 3s;
+}
+
+.btn0 {
+    background-color: #D84924;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    box-shadow: 2px 4PX 10PX black;
+}
+
+.btnC {
+    background-color: #D84924;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    box-shadow: 2px 4PX 10PX black;
+    margin-top: 30%;
+}
+
+.imagehtml {
+    box-shadow: 2px 4PX 10PX black;
+    border-radius: 50%;
+}
+
+.btn1 {
+    background-color: #4397C9;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    box-shadow: 2px 4PX 10PX black;
+    margin-top: 125%;
+}
+
+.crclcss {
+    margin-top: 5%;
+    box-shadow: 2px 4PX 10PX black;
+    border-radius: 50%;
+}
+
+.css {
+    border: solid 5px #4397C9;
+    position: relative;
+    bottom: 59%;
+    left: 9%;
+    animation-duration: 3s;
+}
+
+.boot {
+    border: solid 5px #6C12EA;
+    position: relative;
+    bottom: 405px;
+    left: 10%;
+    animation-duration: 3s;
+    width: 100%;
+}
+
+.crclboot {
+    margin-top: 10%;
+    box-shadow: 2px 4PX 10PX black;
+    border-radius: 50%;
+}
+
+.btnb {
+    background-color: #6C12EA;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    box-shadow: 2px 4PX 10PX black;
+    margin-top: 30%;
+}
+
+.java {
+    border: solid 5px #EFD81D;
+    position: relative;
+    bottom: 345px;
+    left: 10%;
+    animation-duration: 3s;
+    width: 100%;
+}
+
+.btnj {
+    background-color: #cdb923;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    box-shadow: 2px 4PX 10PX black;
+    margin-top: 60%;
+}
+
+.react {
+    border: solid 5px #4397C9;
+    position: relative;
+    bottom: 345px;
+    left: 10%;
+    animation-duration: 3s;
+    width: 100%;
+}
+
+.btnr {
+    background-color: #4397C9;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    box-shadow: 2px 4PX 10PX black;
+    margin-top: 60%;
+}
+
+.crclreact {
+    margin-top: 5%;
+    box-shadow: 2px 4PX 10PX black;
+    border-radius: 50%;
+}
+
+.crcljava {
+    margin-top: %;
+    box-shadow: 2px 4PX 10PX black;
+    border-radius: 50%;
+}
+
+.topage5 {
+    position: relative;
+    left: 40%;
+    top: 18px;
+    z-index: 99;
+}
+
+.topage6 {
+    position: relative;
+    right: 40%;
+    top: -12px;
+}
+
+.suivant3 {
+    position: relative;
+    top: 370px;
+    z-index: 99;
+}

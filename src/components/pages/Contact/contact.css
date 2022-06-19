@@ -1,0 +1,162 @@
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.gradient {
+    background: linear-gradient( #282A35, #DC3545);
+    border-radius: 50px;
+    margin-bottom: 15PX;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: #DC3545;
+}
+
+.shad {
+    box-shadow: black 2px 0px 20px;
+    height: 10%;
+    position: relative;
+    bottom: 130px;
+}
+
+.shad3 {
+    position: relative;
+    bottom: 110px;
+}
+
+.shad4 {
+    position: relative;
+    bottom: 140px;
+}
+
+.shad1 {
+    position: relative;
+    bottom: 120px;
+}
+
+.colon {
+    margin-top: 34%;
+}
+
+.im1 {
+    position: relative;
+    top: 5%;
+    left: 28%;
+    box-shadow: black 2px 0px 20px;
+    height: 50%;
+}
+
+.ic {
+    position: relative;
+    right: 135px;
+}
+
+.links {
+    color: gray;
+    list-style: none;
+}
+
+.links:hover {
+    color: #DC3545;
+}
+
+.end1,
+.middle1,
+.middle2 {
+    display: inline-block;
+    overflow: hidden;
+    height: 1.5em;
+    position: relative;
+    top: 150px;
+    z-index: 99;
+}
+
+.end2 {
+    position: absolute;
+    color: #DC3545;
+    bottom: 237px;
+    z-index: 99;
+}
+
+.middle1,
+.middle2 {
+    color: #ea8f8f
+}
+
+.middle1 {
+    animation: ani1 5s infinite;
+    animation-delay: -3s;
+    max-width: 0;
+}
+
+.middle2 {
+    animation: ani2 5s infinite;
+    animation-delay: -3s;
+    max-width: 0;
+}
+
+@keyframes ani1 {
+    0% {
+        max-width: 500px;
+    }
+    25% {
+        max-width: 0;
+    }
+    75% {
+        max-width: 0;
+    }
+    90% {
+        max-width: 500px;
+    }
+    100% {
+        max-width: 500px;
+    }
+}
+
+@keyframes ani2 {
+    0% {
+        max-width: 0;
+    }
+    25% {
+        max-width: 0;
+    }
+    50% {
+        max-width: 500px;
+    }
+    75% {
+        max-width: 0;
+    }
+    100% {
+        max-width: 0;
+    }
+}
+
+.start {
+    margin-left: 50%;
+}
+
+.suivant4 {
+    position: relative;
+    top: 370px;
+    /* float: bottom; */
+    padding-bottom: 20px;
+    z-index: 99;
+}
+
+.envoie {
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+    background-color: rgb(39, 37, 37);
+}
+
+.topage7 {
+    position: relative;
+    right: 40%;
+    top: 10px;
+    z-index: 99;
+}

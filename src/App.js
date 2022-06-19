@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+import About from './components/pages/About/About';
+import {Route, Routes} from 'react-router-dom';
+import Home from './components/Home/Home';
+import Contact from './components/pages/Contact/Contact'
+import Portfolio from './components/pages/Portfolio/Portfolio';
+import Nav from './components/pages/Nav/Nav';
+import Footer from './components/pages/footer/Footer';
+import Blog from './components/pages/Blog/Blog';
+import React,{useContext} from "react"
+import {ThemeContext}from './components/Context/ThemeContext'
+
+
+
+
 import './App.css';
 
 function App() {
+const {theme}= useContext(ThemeContext);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+
+<div className={theme ? 'App light': 'App dark'}>
+
+<Nav/>
+  <Routes>
+     <Route path="/" element={ <Home/>} />
+    <Route path="/Home" element={ <Home/>} />
+    <Route path="/Contact" element={ <Contact/>} />
+    <Route path="/About" element={<About/>} />
+    <Route path="/Portfolio" element={<Portfolio/>} />
+    <Route path="/Blog" element={<Blog/>} />
+  </Routes>
+<Footer/>
+</div>
+
+
+
+
+
   );
 }
 

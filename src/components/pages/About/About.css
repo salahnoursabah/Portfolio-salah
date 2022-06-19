@@ -1,0 +1,106 @@
+body {
+    font-family: Poppins, sans-serif;
+    overflow-x: hidden;
+}
+
+.progress-bar {
+    width: 60%;
+}
+
+.progress-bar1 {
+    width: 40%;
+}
+
+.progress-bar2 {
+    width: 30%;
+}
+
+.progress-bar3 {
+    width: 30%;
+}
+
+.progress-bar4 {
+    width: 70%;
+}
+
+.logo {
+    position: relative;
+    top: 55px;
+}
+
+.navbar {
+    width: 1347px;
+    height: 100px;
+}
+
+.h11 {
+    position: relative;
+    left: 50px;
+    border-radius: 50%;
+    width: 50px;
+    font-family: Montserrat, sans-serif;
+    height: 50px;
+}
+
+.tele {
+    padding-top: 14%;
+}
+
+.lorem1 {
+    box-shadow: 2.5px 4.33px 15px #00000026;
+    background-color: rgb(201, 81, 81);
+    height: 150px;
+    margin-top: 150px;
+}
+
+.shad:hover {
+    background-color: #DC3545;
+    color: white;
+}
+
+.ic {
+    position: relative;
+    right: 135px;
+}
+
+.links {
+    color: gray;
+    list-style: none;
+}
+
+.links:hover {
+    color: #DC3545;
+}
+
+.Aboutimg {
+    position: relative;
+    right: 10%;
+    margin-top: 45px;
+}
+
+.img8 {
+    margin-top: 140px;
+}
+
+.topage1 {
+    position: relative;
+    left: 40%;
+    top: 18px;
+}
+
+.topage2 {
+    position: relative;
+    right: 40%;
+    bottom: 15px;
+}
+
+.suivant1 {
+    position: relative;
+    top: 490px;
+    z-index: 99;
+}
+
+.card {
+    position: relative;
+    top: 20px;
+}

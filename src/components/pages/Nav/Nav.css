@@ -1,0 +1,49 @@
+.nav-a {
+    text-decoration: none;
+    color: gray;
+    letter-spacing: normal;
+}
+
+.nav-a:hover {
+    color: #BB2D3B;
+    letter-spacing: 0.25em;
+    transition: 0.5s;
+}
+
+.btnn {
+    position: relative;
+    bottom: 6px;
+    border: 0;
+    color: white;
+    background-color: #BB2D3B;
+    padding: 8px;
+    letter-spacing: normal;
+}
+
+.btnn:hover {
+    background-color: white;
+    letter-spacing: 0.25em;
+    transition: 0.5s;
+    color: #BB2D3B;
+    border: solid 2px;
+}
+
+.back {
+    position: relative;
+    top: 2450px;
+    z-index: 99;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+}
+
+.Nav.dark {
+    background-color: #333;
+    color: rgb(175, 53, 53);
+}
+
+.Nav.light {
+    color: #333;
+    background-color: white;
+}

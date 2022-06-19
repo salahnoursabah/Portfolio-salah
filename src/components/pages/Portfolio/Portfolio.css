@@ -1,0 +1,119 @@
+.row1 {
+    background-color: brown;
+}
+
+.col1 {
+    position: relative;
+    top: 20%;
+}
+
+.trello {
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+
+.trello:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card {
+    width: 40%;
+}
+
+.bar {
+    width: 50%;
+    height: 15%;
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: normal;
+    transition: 0.5s;
+}
+
+.bar:hover {
+    box-shadow: black 2px 2px 10px;
+    border-radius: 8px;
+    height: 45PX;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.green {
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+
+.green:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.titre {
+    position: relative;
+    bottom: 25%;
+    left: ;
+}
+
+.fish {
+    position: relative;
+    bottom: 20%;
+}
+
+h1 {
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+
+h1 span {
+    transition: .5s linear
+}
+
+h1:hover span:nth-child(1) {
+    margin-right: 5px
+}
+
+h1:hover span:nth-child(1):after {
+    content: "";
+}
+
+h1:hover span:nth-child(2) {
+    margin-left: px
+}
+
+h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+.lin {
+    margin-right: 33%;
+}
+
+.topage3 {
+    position: relative;
+    left: 40%;
+    top: 15px;
+}
+
+.topage4 {
+    position: relative;
+    right: 40%;
+    bottom: 18px;
+}
+
+.suivant2 {
+    position: relative;
+    top: 370px;
+    z-index: 99;
+}

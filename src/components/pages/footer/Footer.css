@@ -1,0 +1,38 @@
+  .ic {
+      position: relative;
+      right: 135px;
+      transition: 1s;
+  }
+  
+  footer {
+      background-color: rgb(250, 199, 199);
+  }
+  
+  .ic:hover {
+      transform: scale(1.5);
+      cursor: pointer;
+  }
+  
+  .links {
+      color: gray;
+      list-style: none;
+  }
+  
+  .links:hover {
+      color: #DC3545;
+  }
+  
+  .footer.dark {
+      background-color: #DC3545;
+      color: white;
+      border-radius: 20%;
+  }
+  
+  .footer.light {
+      background-color: #333;
+  }
+  
+  .Linkss {
+      position: relative;
+      right: 6%;
+  }
