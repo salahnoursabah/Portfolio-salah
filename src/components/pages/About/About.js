@@ -168,7 +168,7 @@ function About() {
           <div className="row pt-5 mt-5">
             <div  data-aos="fade-right" className=" card text-white bg-danger  lorem1 rounded-3    col-md-5">
               <p  className="mt-3">
-               Ce domaine je l'ai integrer en 2019 et c'est ma premiere experience professionel ou j'ai apris plusieurs choses.
+               Ce domaine je l'ai intégrer en 2019 et c'était ma premiere experience professionel ou j'ai apris plusieurs choses.
                            <strong>(Ma Meilleure Exprience)</strong>
               </p>
             </div>
